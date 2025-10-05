@@ -4,7 +4,7 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
-import pickle
+import pickle as streamlit
 
 # Load model and encoders
 with open('model_kpi.pkl', 'rb') as file:
